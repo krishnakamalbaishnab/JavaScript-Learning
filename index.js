@@ -47,6 +47,8 @@ let lastName1 = null; //we use null when we want to clear the value of a variabl
 
 //objects
 
+//objects are reference types
+
 //object is a collection of key value pairs
 //object is a container for related variables
 //eg of an object
@@ -70,6 +72,7 @@ console.log(person);
 // console.log(person.name);
 
 //Arrays
+//arrays are reference types
 
 // Array is a data structure that we use to represent a list of items
 //eg of an array
@@ -78,3 +81,34 @@ let selectedColors = ["red", "blue"]; //array literal syntax ,declaring an array
 selectedColors[2] = "green"; //adding an item to an array
 console.log(selectedColors.length); //length of an array
 console.log(selectedColors); //printing an array
+
+//functions
+//functions are a set of statements that performs a task or calculates a value
+// functions are reference types
+
+//eg of a function
+
+function greet(name, lastName) {
+  //name and lastName are parameters , we can pass any number of parameters
+  console.log("Hello " + name + " " + lastName); //concatenation of strings
+} //function declaration
+
+greet("Krishna", "Kamal"); //calling a function //Krishna and Kamal are arguments , if we don not pass the second arguments then it will be undefined
+greet("Jhon", "Dave"); //calling a function
+
+//types of functions
+//1. performing a task
+
+function greet1(name, lastName) {
+  console.log("Hello " + name + " " + lastName);
+}
+
+//2. calculating a value
+
+function square(number) {
+  //number is a parameter
+  return number * number; //return keyword is used to return a value
+}
+
+let number1 = square(2); //calling a function
+console.log(number1); //printing a value of a function. There are two functions in this line. One is square and another is console.log

@@ -74,7 +74,7 @@ console.log(person);
 // Array is a data structure that we use to represent a list of items
 //eg of an array
 
-let selectedColors = ["red", "blue"];
-selectedColors[2] = "green";
-console.log(selectedColors.length);
-console.log(selectedColors);
+let selectedColors = ["red", "blue"]; //array literal syntax ,declaring an array
+selectedColors[2] = "green"; //adding an item to an array
+console.log(selectedColors.length); //length of an array
+console.log(selectedColors); //printing an array

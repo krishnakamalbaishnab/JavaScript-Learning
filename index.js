@@ -47,27 +47,34 @@ let lastName1 = null; //we use null when we want to clear the value of a variabl
 
 //objects
 
-// let person = {
-//   name: "Krishna",
-//   age: 28,
-//   address: "Kuralguri",
-// };
+//object is a collection of key value pairs
+//object is a container for related variables
+//eg of an object
+let person = {
+  name: "Krishna",
+  age: 28,
+  address: "Kuralguri",
+};
+console.log(person);
 
 //how to target these key values
 
-//tere are two ways to target these key values
+//there are two ways to target these key values
 
 //1. dot notation
 // person.name = "Kamal";
 // console.log(person.name);
-// //2. bracket notation
+
+//2. bracket notation
 // person["name"] = "Krishna";
 // console.log(person.name);
 
 //Arrays
 
 // Array is a data structure that we use to represent a list of items
-// let selectedColors = ["red", "blue"];
-// selectedColors[2] = "green";
-// console.log(selectedColors.length);
-// console.log(selectedColors);
+//eg of an array
+
+let selectedColors = ["red", "blue"];
+selectedColors[2] = "green";
+console.log(selectedColors.length);
+console.log(selectedColors);

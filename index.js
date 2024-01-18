@@ -112,3 +112,12 @@ function square(number) {
 
 let number1 = square(2); //calling a function
 console.log(number1); //printing a value of a function. There are two functions in this line. One is square and another is console.log
+
+//NOTE Video: 4. Operators
+
+//there are different types of operators
+//1. Arithmetic Operators
+//2. Assignment Operators
+//3. Comparison Operators
+//4. Logical Operators
+//5. Bitwise Operators

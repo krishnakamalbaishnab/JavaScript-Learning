@@ -121,3 +121,44 @@ console.log(number1); //printing a value of a function. There are two functions 
 //3. Comparison Operators
 //4. Logical Operators
 //5. Bitwise Operators
+
+//1. Arithmetic Operators
+
+// the arithimatic operator are used to perform arithmetic between variables and/or values
+// the arithiatic operatiors are
+// + => addition
+// - => subtraction
+// * => multiplication
+// / => division
+// % => modulus
+//the special arithmetic operators are
+// ++ => increment
+// -- => decrement
+// ** => exponentiation (ES2016)
+
+//eg of arithmetic operators
+let x = 10;
+let y = 20;
+
+console.log(x + y);
+
+console.log(x - y);
+
+console.log(x * y);
+
+console.log(x / y);
+
+console.log(x % y);
+
+//eg of special arithmetic operators
+
+console.log(x++); //post increment
+console.log(x); //printing the value of x after post increment
+console.log(++x); //pre increment
+console.log(x); //printing the value of x after pre increment
+console.log(x--); //post decrement
+console.log(x); //printing the value of x after post decrement
+console.log(--x); //pre decrement
+console.log(x); //printing the value of x after pre decrement
+
+console.log(2 ** 4); //exponentiation -- it means 2 to the power of 4

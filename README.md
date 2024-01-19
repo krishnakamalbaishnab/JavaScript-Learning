@@ -1,9 +1,12 @@
 # JavaScript-Learning
 
-JavaScript Learning CodeWithMosh
-Topics Covered
-Varibles
-Constat
-Let Keyword
-Objects
-Arrays
+1. JavaScript Learning CodeWithMosh
+2. Topics Covered
+3. Varibles
+4. Consta
+5. Let Keyword
+6. Objects
+7. Arrays
+
+8. Operators
+   1. Arithmatic operator

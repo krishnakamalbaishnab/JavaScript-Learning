@@ -152,8 +152,8 @@ console.log(x % y);
 
 //eg of special arithmetic operators
 
-console.log(x++); //post increment
-console.log(x); //printing the value of x after post increment
+console.log(x++); //post increment -- this line will increment the value of x by 1 but won't print the value of x after increment , thi line will print the value of x before increment i.e 10
+console.log(x); //printing the value of x after post increment -- this line will print the value of x after increment i.e 11
 console.log(++x); //pre increment
 console.log(x); //printing the value of x after pre increment
 console.log(x--); //post decrement

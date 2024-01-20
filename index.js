@@ -162,3 +162,18 @@ console.log(--x); //pre decrement
 console.log(x); //printing the value of x after pre decrement
 
 console.log(2 ** 4); //exponentiation -- it means 2 to the power of 4
+
+//important eqality operators
+
+//strict equality operator
+// === => strict equality operator
+console.log(1 === 1); //this will return true
+console.log("1" === 1); //this will return false because the type of 1st value is string and the type of 2nd value is number
+
+//loose equality operator
+// == => loose equality operator
+
+console.log(1 == 1); //this will return true
+console.log("1" == 1); //this will return true because the loose equality operator does not check the type of the values
+
+//what this == will do is it will convert the string to number and then it will check the values

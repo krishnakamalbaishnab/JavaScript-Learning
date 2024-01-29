@@ -177,3 +177,17 @@ console.log(1 == 1); //this will return true
 console.log("1" == 1); //this will return true because the loose equality operator does not check the type of the values
 
 //what this == will do is it will convert the string to number and then it will check the values
+
+// ternary operator
+
+//ternary operator is a shorthand for if else statement
+
+//syntax
+//condition ? if true : if false
+
+//eg
+
+let points = 110;
+let type = points > 100 ? "gold" : "silver"; //if points is greater than 100 then type will be gold else type will be silver
+
+console.log(type); //this will print gold

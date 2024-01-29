@@ -10,3 +10,7 @@
 
 8. Operators
    1. Arithmatic operator
+   2. Assignment Operators
+   3. Comparison Operators
+   4. Equality Operators
+   5. Ternary Operators

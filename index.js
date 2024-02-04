@@ -191,3 +191,37 @@ let points = 110;
 let type = points > 100 ? "gold" : "silver"; //if points is greater than 100 then type will be gold else type will be silver
 
 console.log(type); //this will print gold
+
+//logical operators
+//logical operators are used to determine the logic between variables or values
+//logical operators are
+//1. AND (&&)
+//2. OR (||)
+//3. NOT (!)
+
+//eg of logical operators
+
+let highIncome = true;
+let goodCreditScore = true;
+
+let eligibleForLoan = highIncome && goodCreditScore; //if both the values are true then the result will be true else it will be false
+console.log(eligibleForLoan); //this will print true
+
+let eligibleForLoan1 = highIncome || goodCreditScore; //if any of the value is true then the result will be true else it will be false
+console.log(eligibleForLoan1); //this will print true
+
+let eligibleForLoan2 = highIncome || !goodCreditScore; //if highIncome is true and goodCreditScore is false then the result will be true else it will be false
+console.log(eligibleForLoan2); //this will print true
+
+//not oprator
+
+let applicationRefused = !eligibleForLoan; //if eligibleForLoan is true then the result will be false else it will be true
+console.log(applicationRefused); //this will print false
+
+//falsy values
+//undefined
+//null
+//0
+//false
+//''
+//NaN

@@ -3,7 +3,7 @@
 1. JavaScript Learning CodeWithMosh
 2. Topics Covered
 3. Varibles
-4. Consta
+4. Constant
 5. Let Keyword
 6. Objects
 7. Arrays

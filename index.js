@@ -275,3 +275,17 @@ console.log(x1);
 
 let x2 = (2 + 3) * 4; //this will print 20 because the precedence of () is higher than * so it will add 2 and 3 first and then it will multiply 4 to the result
 console.log(x2);
+
+//exercise
+
+//swap two values
+
+let colorOne = "red"; //we have to swap the values of colorOne and colorTwo
+let colorTwo = "blue"; // we have to swap the values of colorOne and colorTwo
+
+let tempColor = colorOne; //we are storing the value of colorOne in a temporary variable
+colorOne = colorTwo; //we are storing the value of colorTwo in colorOne
+colorTwo = tempColor; //we are storing the value of tempColor in colorTwo
+
+console.log(colorOne); //this will print blue
+console.log(colorTwo); //this will print red

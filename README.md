@@ -14,3 +14,6 @@
    3. Comparison Operators
    4. Equality Operators
    5. Ternary Operators
+   6. Logical Operator
+   7. BITWISE Operators
+   8. Logical Operators with Non Boolean Values

@@ -253,3 +253,25 @@ console.log(~a); //this will print -3 //binary representation of 2 is 10 so the 
 console.log(a << 1); //this will print 4 //binary representation of 2 is 10 so the result will be 100 i.e 4
 console.log(a >> 1); //this will print 1 //binary representation of 2 is 10 so the result will be 1 i.e 1
 console.log(a >>> 1); //this will print 1 //binary representation of 2 is 10 so the result will be 1 i.e 1
+
+//operator precedence
+
+//precedence of operators
+//1. ()
+//2. . []
+//3. ++ --
+//4. ** (exponentiation)
+//5. ! - (unary operators)
+//6. * / %
+//7. + -
+//8. < > <= >=
+//9. == !=
+//10. &&
+//11. ||
+//12. ?:
+
+let x1 = 2 + 3 * 4; //this will print 14 because the precedence of * is higher than + so it will multiply 3 and 4 first and then it will add 2 to the result
+console.log(x1);
+
+let x2 = (2 + 3) * 4; //this will print 20 because the precedence of () is higher than * so it will add 2 and 3 first and then it will multiply 4 to the result
+console.log(x2);

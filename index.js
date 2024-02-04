@@ -232,3 +232,24 @@ let currentColor = userColor || defaultColor; //if userColor is defined then cur
 console.log(currentColor); //this will print red
 
 // when the userColor is undefined then the currentColor will be defaultColor i.e blue, javascript will not check the defaultColor if the userColor is defined, it will stop checking the values if the userColor is defined
+
+//bitwise operators
+//bitwise operators are used to perform bitwise operations between variables or values
+//bitwise operators are
+//1. AND (&)
+//2. OR (|)
+//3. XOR (^)
+//4. NOT (~)
+//5. Left Shift (<<)
+//6. Sign Propagating Right Shift (>>)
+//7. Zero Fill Right Shift (>>>)
+
+let a = 2; //binary representation of 2 is 10
+let b = 3; //binary representation of 3 is 11
+console.log(a & b); //this will print 2
+console.log(a | b); //this will print 3
+console.log(a ^ b); //this will print 1
+console.log(~a); //this will print -3
+console.log(a << 1); //this will print 4
+console.log(a >> 1); //this will print 1
+console.log(a >>> 1); //this will print 1

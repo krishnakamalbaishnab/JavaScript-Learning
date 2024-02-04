@@ -24,3 +24,35 @@ if (hour >= 6 && hour < 12) {
 } else {
   console.log("Good Night");
 }
+
+////switch case statement
+//syntax
+//switch (key) {
+//    case value:
+//        statement
+//        break;
+//
+//    default:
+//        break;
+//}
+
+//eg -- simple program to greet the user based on the time
+
+let hour1 = 14;
+
+switch (
+  hour1 //this will check the value of hour1
+) {
+  case 6: //if the value of hour1 is 6 then it will execute the following statement
+    console.log("Good Morning");
+    break;
+  case 12: //if the value of hour1 is 12 then it will execute the following statement
+    console.log("Good Afternoon");
+    break;
+  case 18: //if the value of hour1 is 18 then it will execute the following statement
+    console.log("Good Evening");
+    break;
+  default: //if the value of hour1 is not 6, 12, 18 then it will execute the following statement
+    console.log("Good Night");
+    break;
+}

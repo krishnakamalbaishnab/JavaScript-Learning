@@ -246,10 +246,10 @@ console.log(currentColor); //this will print red
 
 let a = 2; //binary representation of 2 is 10
 let b = 3; //binary representation of 3 is 11
-console.log(a & b); //this will print 2
-console.log(a | b); //this will print 3
-console.log(a ^ b); //this will print 1
-console.log(~a); //this will print -3
-console.log(a << 1); //this will print 4
-console.log(a >> 1); //this will print 1
-console.log(a >>> 1); //this will print 1
+console.log(a & b); //this will print 2 //binary representation of 2 is 10 and binary representation of 3 is 11 so the result will be 10 i.e 2
+console.log(a | b); //this will print 3 //binary representation of 2 is 10 and binary representation of 3 is 11 so the result will be 11 i.e 3
+console.log(a ^ b); //this will print 1   //binary representation of 2 is 10 and binary representation of 3 is 11 so the result will be 01 i.e 1
+console.log(~a); //this will print -3 //binary representation of 2 is 10 so the result will be 01 i.e -3
+console.log(a << 1); //this will print 4 //binary representation of 2 is 10 so the result will be 100 i.e 4
+console.log(a >> 1); //this will print 1 //binary representation of 2 is 10 so the result will be 1 i.e 1
+console.log(a >>> 1); //this will print 1 //binary representation of 2 is 10 so the result will be 1 i.e 1

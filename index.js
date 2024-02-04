@@ -225,3 +225,10 @@ console.log(applicationRefused); //this will print false
 //false
 //''
 //NaN
+
+let userColor = "red";
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor; //if userColor is defined then currentColor will be userColor else it will be defaultColor
+console.log(currentColor); //this will print red
+
+// when the userColor is undefined then the currentColor will be defaultColor i.e blue, javascript will not check the defaultColor if the userColor is defined, it will stop checking the values if the userColor is defined

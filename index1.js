@@ -89,3 +89,26 @@ for (let i = 0; i <= 10; i++) {
     console.log(i);
   }
 }
+
+//while loop
+
+//syntax
+//while (condition) {
+//    statement
+//}
+
+//eg
+// let i = 0;
+// while (i < 5) {
+//   console.log("Hello World");
+//   i++;
+// }
+
+//eg 2
+let i = 0;
+while (i <= 10) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+  i++;
+}

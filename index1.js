@@ -104,6 +104,15 @@ for (let i = 0; i <= 10; i++) {
 //   i++;
 // }
 
+//note that the above for loop and while loop will do the same thing
+//the only difference is the syntax
+//for loop is used when we know the number of iterations
+//while loop is used when we don't know the number of iterations
+// in while loop we have to manually increment the value of i
+//in for loop we don't have to manually increment the value of i
+
+//in while loop first the condition is checked and then the statement is executed and then the condition is checked again and then the statement is executed again and so on
+
 //eg 2
 let i = 0;
 while (i <= 10) {

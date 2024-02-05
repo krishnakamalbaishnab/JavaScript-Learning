@@ -112,7 +112,8 @@ for (let i = 0; i <= 10; i++) {
 //in for loop we don't have to manually increment the value of i
 
 //in while loop first the condition is checked and then the statement is executed and then the condition is checked again and then the statement is executed again and so on
-
+// in while loop the loop variable is declared outside the loop
+//in for loop the loop variable is declared inside the loop sp both of them have different scope and different lifecycle
 //eg 2
 let i = 0;
 while (i <= 10) {
@@ -121,3 +122,26 @@ while (i <= 10) {
   }
   i++;
 }
+
+//do while loop
+//syntax
+//do {
+//    statement
+//} while (condition)
+
+//eg
+let j = 0;
+do {
+  if (j % 2 === 0) {
+    console.log(j);
+  }
+  j++;
+} while (j <= 10);
+// in do dwhile loop the statement is executed first and then the condition is checked and then the statement is executed again and then the condition is checked again and so on
+// so in do while loop the statement is executed at least once
+// in while loop the condition is checked first and then the statement is executed and then the condition is checked again and then the statement is executed again and so on
+// so in while loop the statement is not executed if the condition is false
+// so if we want to execute the statement at least once then we should use do while loop
+// if we don't want to execute the statement if the condition is false then we should use while loop
+// so do while loop is used when we want to execute the statement at least once
+// while loop is used when we don't want to execute the statement if the condition is false

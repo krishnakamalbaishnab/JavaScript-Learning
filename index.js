@@ -289,3 +289,5 @@ colorTwo = tempColor; //we are storing the value of tempColor in colorTwo
 
 console.log(colorOne); //this will print blue
 console.log(colorTwo); //this will print red
+
+//INFINITE LOOP

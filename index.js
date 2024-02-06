@@ -291,3 +291,7 @@ console.log(colorOne); //this will print blue
 console.log(colorTwo); //this will print red
 
 //INFINITE LOOP
+
+let arrayOne = [1, 2, 3, 4];
+arrayOne[5] = 6;
+console.log(arrayOne[4]);

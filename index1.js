@@ -194,3 +194,26 @@ const carBrands = ["Land Rover", "Bently", "BMW", "Jaguar"];
 for (let i of carBrands) {
   console.log(i); // here to console the value of array we don't have to specifically mention the dot or bracket notation
 }
+
+//TODO:Write a function that take two numbers and returns the maximum of two
+
+function maximum(number1, number2) {
+  if (number1 > number2) console.log(number1 + " is the Max Number");
+  else console.log(number2 + " is the Max Number");
+}
+
+maximum(4, 5);
+
+//another way
+
+let number = max(2, 5);
+console.log(number);
+
+function max(num1, num2) {
+  // if (num1 > num2) return num1;
+  // else return num2; //here if we don't use the else keyword than also the code will run. // cleaner code
+
+  //using the ternary operator
+
+  return num1 > num2 ? num1 : num2;
+}

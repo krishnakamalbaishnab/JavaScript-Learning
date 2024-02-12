@@ -233,7 +233,7 @@ function landScape(width, height) {
 //Not divisible by 3 or 5 => input
 //Not a number => 'Not a number'
 
-const output = fizzBuzz(9);
+const output = fizzBuzz(15);
 console.log(output);
 
 function fizzBuzz(input) {
@@ -243,3 +243,18 @@ function fizzBuzz(input) {
   if (input % 5 === 0) return "Buzz";
   return input;
 }
+
+//there is a important concept here from the above code let's see the below code
+// const output = fizzBuzz(15);
+// console.log(output);
+
+// function fizzBuzz(input) {
+//   if (typeof input !== "number") return "Not a number";
+//   if (input % 3 === 0) return "Fizz";
+//   if (input % 5 === 0) return "Buzz";
+//   if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
+//   return input;
+// }
+
+//both the code is doing the same thing, only thing is that, as 15 is divided by both 3 and 5 , so logically it should return FizzBuzz
+//but it will not beacuse when the code reaches this if (input % 3 === 0) return "Fizz"; condition it will return Fizz and the execution will be stopped

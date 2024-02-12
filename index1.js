@@ -264,12 +264,13 @@ function checkSpeed(speed) {
   const speedLimit = 70;
   const kmPerHour = 5;
 
-  if (speed <= 70) console.log("The Speed Limit is okay!");
-  else {
-    const points = Math.floor((speed - speedLimit) / kmPerHour);
-    if (points > 12) console.log("License Suspended");
-    else console.log("The Points received ", points);
+  if (speed < speedLimit + kmPerHour) {
+    console.log("The Speed Limit is okay!");
+    return;
   }
+  const points = Math.floor((speed - speedLimit) / kmPerHour);
+  if (points > 12) console.log("License Suspended");
+  else console.log("The Points received ", points);
 }
 
-checkSpeed(75);
+checkSpeed(72);

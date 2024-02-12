@@ -179,3 +179,18 @@ for (let i in color) {
 
   console.log(i, color[i]);
 }
+
+//for of loop
+
+//in ES6 Javascript we have an different kind of loop to specially deal with array, whcih is called FOR OF Loops
+
+//example
+
+//let's declare an array
+
+const carBrands = ["Land Rover", "Bently", "BMW", "Jaguar"];
+// so when we want to iterate over this array we can use the for of loop
+
+for (let i of carBrands) {
+  console.log(i); // here to console the value of array we don't have to specifically mention the dot or bracket notation
+}

@@ -258,3 +258,18 @@ function fizzBuzz(input) {
 
 //both the code is doing the same thing, only thing is that, as 15 is divided by both 3 and 5 , so logically it should return FizzBuzz
 //but it will not beacuse when the code reaches this if (input % 3 === 0) return "Fizz"; condition it will return Fizz and the execution will be stopped
+
+//demerit
+function checkSpeed(speed) {
+  const speedLimit = 70;
+  const kmPerHour = 5;
+
+  if (speed <= 70) console.log("The Speed Limit is okay!");
+  else {
+    const points = Math.floor((speed - speedLimit) / kmPerHour);
+    if (points > 12) console.log("License Suspended");
+    else console.log("The Points received ", points);
+  }
+}
+
+checkSpeed(75);

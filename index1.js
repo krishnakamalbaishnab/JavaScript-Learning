@@ -217,3 +217,10 @@ function max(num1, num2) {
 
   return num1 > num2 ? num1 : num2;
 }
+
+//landscape or not
+let type = landScape(10, 5);
+console.log(type);
+function landScape(width, height) {
+  return width > height ? "LandScape" : "Not LandScape";
+}

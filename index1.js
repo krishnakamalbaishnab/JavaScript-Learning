@@ -145,3 +145,37 @@ do {
 // if we don't want to execute the statement if the condition is false then we should use while loop
 // so do while loop is used when we want to execute the statement at least once
 // while loop is used when we don't want to execute the statement if the condition is false
+
+//for in loops
+
+const person = {
+  name: "Krishna",
+  age: 23,
+  adress: "India",
+};
+
+// this is an object names as person which contains the properties name , age adress.
+//so if we want to iterate over this object we can use the "For....in" loop.
+
+//here is the example
+
+//
+
+// so to console the value of the property we need to acces the property using either by dot notation or by bracket notation
+
+//here is the example:
+
+//console.log(key);  //this line will print only the properties name  , age and address of the person object because it iterates through all the keys present inside the person
+//but it will not show the value of each property
+for (let key in person) console.log(key, person[key]);
+
+//now let's see an example of for in loop iterating over an array
+
+const color = ["red", "blue", "green", "yellow"];
+
+for (let i in color) {
+  //console.log(i); //this only console the index value
+  //again if we want to see the indx with value we can use the bracket notation
+
+  console.log(i, color[i]);
+}

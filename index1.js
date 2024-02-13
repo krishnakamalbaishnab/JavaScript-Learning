@@ -297,3 +297,26 @@ function countTruthy(array) {
   }
   return count;
 }
+
+//string properties
+
+const movie = {
+  Title: "3 Idiots",
+  ReleaseYear: 2009,
+  Rating: 8.5,
+  Director: "Rajkumar Hirani",
+};
+
+function showProperties(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] === "string") {
+      console.log(key, " : ", obj[key]);
+    }
+  }
+}
+
+showProperties(movie);
+
+//the above code will only print the properties which are of type string and not the properties which are of type number
+
+//sum of multiples of 3 and 5

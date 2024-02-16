@@ -136,5 +136,35 @@ function createCircle(radius) {
 }
 
 // Usage
-const circle1 = new Circle(5); // Constructor function
-const circle2 = createCircle(5); // Factory function
+// const circle1 = new Circle(5); // Constructor function
+// const circle2 = createCircle(5); // Factory function
+
+//Dynamic Nature of Objects
+
+//In JavaScript, you can add or remove properties to an object after it has been created.
+
+//This is because objects are dynamic. You can add new properties, update existing properties, or remove properties from an object.
+
+//eg
+
+const circle5 = {
+  radius: 1,
+  draw: function () {
+    console.log("draw");
+  },
+};
+
+//whgat dynamic means is that we can add new properties to the object, update existing properties or remove properties from the object
+
+// and we can delete , add or update the properties of the object after the object has been created
+
+// and what does const means that we can add modify , delete the properties of the object but we cannot reassign the object to a new object but we can not create a new object with the same name
+
+circle5.color = "yellow"; //adding a new property to the object
+circle5.draw = function () {
+  console.log("draw");
+}; //updating the existing property
+
+delete circle5.color; //deleting a property from the object
+
+console.log(circle5);

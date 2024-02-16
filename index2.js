@@ -114,3 +114,27 @@ console.log(circle4);
 
 // In constructor functions, this refers to the newly created instance of the object.
 // Factory functions do not have a this context unless explicitly specified.
+
+//bewlow are the examples of factory and constructor functions
+
+// Constructor function
+function Circle(radius) {
+  this.radius = radius;
+  this.draw = function () {
+    console.log("draw");
+  };
+}
+
+// Factory function
+function createCircle(radius) {
+  return {
+    radius: radius,
+    draw: function () {
+      console.log("draw");
+    },
+  };
+}
+
+// Usage
+const circle1 = new Circle(5); // Constructor function
+const circle2 = createCircle(5); // Factory function

@@ -168,3 +168,94 @@ circle5.draw = function () {
 delete circle5.color; //deleting a property from the object
 
 console.log(circle5);
+
+//Enumerating Properties of an Object
+
+//In JavaScript, you can enumerate the properties of an object using a for...in loop.
+
+//eg
+
+const circle6 = {
+  radius: 1,
+  draw: function () {
+    console.log("draw");
+  },
+};
+
+for (let key in circle6) {
+  console.log(key, circle6[key]);
+}
+
+//Cloning an Object
+
+//In JavaScript, you can clone an object using the Object.assign method or the spread operator.
+
+//eg
+
+const circle7 = {
+  radius: 1,
+  draw: function () {
+    console.log("draw");
+  },
+};
+
+//using the spread operator to clone the object
+
+const another = { ...circle7 };
+console.log(another);
+
+//using the Object.assign method to clone the object
+
+const another1 = Object.assign({}, circle7);
+
+console.log(another1);
+
+//The Object.assign method is used to copy the values of all enumerable own properties from one or more source objects to a target object.
+
+//It returns the target object.
+
+//In the example above, we use Object.assign to copy all properties from the circle object to an empty object.
+
+//The result is a clone of the circle object.
+
+//The spread operator (...) is used to copy the properties of an object to another object.
+
+//In the example above, we use the spread operator to copy all properties from the circle object to another object.
+
+let x = 10;
+
+let y = x;
+
+x = 20;
+y = x;
+console.log(x, y);
+
+//value vs reference types
+
+//In JavaScript, there are two categories of types: value types and reference types.
+
+//Value types are copied by their value, and reference types are copied by their reference.
+
+//Value types in JavaScript are:
+
+//Number
+//String
+//Boolean
+//Symbol
+//undefined
+//null
+
+//Reference types in JavaScript are:
+
+//Object
+//Function
+//Array
+
+//eg
+
+let x1 = { value: 10 }; //so when we create an object like this it is a reference type , actually what happens behind the hood is that the value of x1 is not stored in the variable names x1 , its memory location is store
+let y1 = x1;
+
+x1.value = 20;
+
+console.log(x1, y1);
